@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.second_supp_task">
+    package="com.example.third_supp">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="layout codelab"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Second_supp_task"
+        android:theme="@style/Theme.Third_supp"
         tools:targetApi="31">
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

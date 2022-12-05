@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Third_supp</string>
+    <string name="textv">Create an account</string>
+    <string name="Name">Name</string>
+    <string name="email">enter ur email</string>
+    <string name="password">enter ur pass</string>
+    <string name="name_hint">enter ur name</string>
+</resources>
